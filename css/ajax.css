@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Fira+Sans');
+body {
+    margin: 0;
+    background-color: rgb(0, 69, 134);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bloc {
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    margin:auto;   
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    text-align: left;
+}
+
+table {
+    text-align: center;
+    border: solid 3px rgb(0, 69, 134);
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 15%;
+}
+
+table td, table tr, table th {
+    border: solid 1px rgb(0, 69, 134);
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#menu ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#menu ul li a.active {
+    background-color: #2361ce;
+    color: white;
+}
+
+#menu ul li a:hover:not(.active) {
+    background-color: rgb(0, 69, 134);
+    color: white;
+}
+
+#contenu {
+    padding: 1px 15px;
+    background-color: rgb(0, 69, 134);
+    height: 100%;
+    margin-left: 20%;
+}
+
+#section1 {
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 80px;
+}
